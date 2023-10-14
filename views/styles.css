@@ -1,0 +1,105 @@
+/* Header Styles */
+header {
+  background-color: #333; /* Background color for the header */
+  padding: 20px; /* Padding around the header content */
+  color: #fff; /* Text color for the header */
+}
+
+/* Menu Styles */
+.menu {
+  background-color: #f1f1f1; /* Background color for the menu */
+  padding: 10px; /* Padding around the menu */
+  display: flex; /* Display the menu items in a row */
+  justify-content: space-between; /* Space out the menu items evenly */
+  align-items: center; /* Center the menu items vertically */
+}
+
+.menu ul {
+  list-style-type: none; /* Remove the default list style */
+  margin: 0; /* Remove margin around the menu list */
+  padding: 0; /* Remove padding around the menu list */
+  display: flex; /* Display the menu items in a row */
+}
+
+.menu ul li {
+  margin-right: 10px; /* Add margin between menu items */
+}
+
+.menu ul li a {
+  text-decoration: none; /* Remove underline from menu item links */
+  color: #333; /* Text color for menu items */
+  font-weight: bold; /* Bold font weight for menu items */
+  border: 1px solid #ccc; /* Add border to menu items */
+  padding: 5px 10px; /* Add padding to menu items */
+  border-radius: 5px; /* Add rounded corners to menu items */
+  transition: background-color 0.3s ease; /* Add smooth transition on hover */
+}
+
+.menu ul li a:hover {
+  background-color: #007bff; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif; /* Set the font family for the entire page */
+  margin: 0; /* Remove margin around the body */
+  padding: 0; /* Remove padding around the body */
+  background: linear-gradient(
+    to bottom,
+    #eaeaea,
+    #f9f9f9
+  ); /* Add gradient background */
+}
+
+.container {
+  max-width: 800px; /* Set maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding to the container */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Add box shadow to the container */
+  border-radius: 10px; /* Add rounded corners to the container */
+}
+
+h1 {
+  color: #333; /* Text color for headings */
+  text-align: center; /* Center align the headings */
+  font-size: 32px; /* Set font size for headings */
+}
+
+p {
+  color: #666; /* Text color for paragraphs */
+  line-height: 1.5; /* Set line height for paragraphs */
+}
+
+a {
+  color: #007bff; /* Text color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover for links */
+}
+
+/* Cool feature: Hover effect on menu items */
+.menu ul li a:hover {
+  background-color: #ff6600; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+  transform: scale(1.1); /* Add scale transform on hover */
+}
+
+/* Cool feature: Box shadow on main heading */
+.main-heading {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add box shadow to the main heading */
+  background-color: #007bff; /* Add a background color to the main heading */
+  color: #fff; /* Change the text color of the main heading to white */
+  padding: 20px; /* Add padding to the main heading */
+  border-radius: 10px; /* Add rounded corners to the main heading */
+  text-align: center; /* Center align the text in the main heading */
+  transition: transform 0.3s ease; /* Add a smooth transition on hover */
+}
+
+.main-heading:hover {
+  transform: scale(
+    1.1
+  ); /* Add a scale transform on hover to make the heading slightly larger */
+}
